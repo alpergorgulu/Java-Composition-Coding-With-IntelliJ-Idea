@@ -13,7 +13,7 @@ IntelliJ Idea üzerinden yazdığım uygulamada, bu bileşenleri kullanarak comp
 
 ### Projeyi Çalıştırma
 
-Proje 6 adet Class'tan oluşmaktadır. Projenin Test dosyası. "Test.java"dır. Bu dosyaya aşağıdaki yönergeden ulaşabilirsiniz.
+Proje 6 adet Class'tan oluşmaktadır. Projenin Test dosyası, "Test.java"dır. Bu dosyaya aşağıdaki yönergeden ulaşabilirsiniz.
 
 `src/Test.java`
 
