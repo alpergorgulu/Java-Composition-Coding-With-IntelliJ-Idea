@@ -17,6 +17,30 @@ Proje 6 adet Class'tan oluşmaktadır. Projenin Test dosyası, "Test.java"dır. 
 
 `src/Test.java`
 
+### Konu Detayı
+
+Composition, Nesne Yönelimli Programlamanın temel taşlarından biridir. Burada ki temel yapı; oluşturulan sınıfların birbiri içerisinde kullanılabilirliğini sağlamaktır. Bu sayede kod tekrarı ve kod kirliliği önlenir.
+
+Java dilinde kompozisyon kullanımı inheritance(kalıtım)’a alternatiftir.
+Kalıtımın ana kuralı olan bir sınıf sadece bir sınıfı miras alabilir kuralı bazen bizi engelleyebilir.
+Örnek verecek olursak farklı sınıflarda işimize yarayan bir metod varsa, kullanabilmek için kompozisyon yaparız.
+
+Aggregation : Bu tür ilişki de nesnelerin yaşam döngüleri birbirlerinden ayrıdır. Bir nesne diğerinden bağımsız olarak da yaşamını sürdürebilir. Yani aralarında bir sahiplik ilişkisi (has-a ) vardır. Örneğin Dizüstü Bilgisayarınız ile onun çantası arasında böyle bir ilişki vardır. Çantayı ayrı olarak ya da laptop’u ayrı olarak düşünebiliriz. Yaşam döngüleri ortak değildir. 
+
+Composition : Bu tür ilişki de nesnelerin yaşam döngüleri birbirleriyle bağlantılıdır. Bir nesne diğerinden bağımsız olarak kullanılamaz. Aralarındaki ilişki parçası olma(is-a-part-of ) ilişkisidir. Az önceki örneğimizden gidersek dizüstü bilgisayarımız ile ekranı arasında bu tarz bir ilişki vardır. 
+
+Konuyu özetlersek;
+
+Belli bir amaç için yazılmış ve doğruluğu kanıtlanmış olan sınıfları, yeni uygulamaların içerisinde kullanmak hem iş süresini kısaltacaktır hem de yeni yazılan uygulamalarda hata çıkma riskini en aza indirgeyecektir. Uygulamalarımızda daha evvelden yazılmış ve doğruluğu kanıtlanmış olan sınıfları tekrardan kullanmanın iki yöntemi bulunur.
+
+Birinci yöntem kalıtımdır (inheritance). Bu yöntemde yeni oluşturacağımız sınıf, daha evvelden yazılmış ve doğruluğu kanıtlanmış olan sınıftan türetilir; böylece yeni oluşan sınıf, türetildiği sınıfın özelliklerine ve işlevlerine sahip olur; Ayrıca oluşan bu yeni sınıfın kendisine ait yeni özellikleri ve işlevleri de olabilir. 
+İkinci yöntem ise komposizyon’dur. Bu yöntem sayesinde daha önceden yazılmış ve doğruluğu kanıtlanmış olan sınıf/sınıfları, yeni yazılan sınıfın içerisinde doğrudan kullanabilme şansına sahip oluruz.
+
+### Youtube Channel
+
+`www.youtube.com/BMDersleri`
+
+
 ### Author
 
 Alper GÖRGÜLÜ
