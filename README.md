@@ -17,6 +17,11 @@ Proje 6 adet Class'tan oluşmaktadır. Projenin Test dosyası, "Test.java"dır. 
 
 `src/Test.java`
 
+### Proje Detayı
+
+Yukarıda görmüş olduğunuz resimde arabanın bazı bileşenleri mevcut. Kapı, Motor, Far ve Tekerler. Bu isimleri taşıyan Java Class'ları oluşturulup içine görev metotları
+yazılmıştır. Görev metotlarına kaynak kodlardan ulaşabilirsiniz. Bu görev metotlarına Car.Java isimli bir Class'da composition uygulayarak erişebiliriz.
+
 ### Konu Detayı
 
 Composition, Nesne Yönelimli Programlamanın temel taşlarından biridir. Burada ki temel yapı; oluşturulan sınıfların birbiri içerisinde kullanılabilirliğini sağlamaktır. Bu sayede kod tekrarı ve kod kirliliği önlenir.
